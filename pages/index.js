@@ -1,16 +1,19 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <div >
+    <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>BingeFlix</title>
+        <link rel="icon" href="/bingeflix-icon.jpeg" />
       </Head>
 
-      <h1>Binge-Flix</h1>
-
+      {/* Header */}
+      <Header />
+      {/* Nav */}
+      {/* Body */}
     </div>
-  )
+  );
 }
